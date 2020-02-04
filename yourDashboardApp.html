@@ -6,28 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Your Dashboard</title>
-
+    <link rel="stylesheet" href="assets/styles/gridCss.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Wheather</h1>
+    <header>
+        <div></div>
+        <div>
+            <img src="assets/styles/welcomeImage.png" alt="London">
         </div>
-        <div class="searchEngine">
-            <p>City: <input id="city"></input>
-            </p>
-            <br/>
-            <button id="searchButton">Search</button>
-        </div>
-        <div class="result">
-            <div class="photo">
 
+    </header>
+    <nav> 2 </nav>
+    <main>
+        <div class="container" id="weather">
+            <div class="header">
+                <h1>Weather</h1>
+            </div>
+            <div class="searchEngine">
+                City: <input id="city"></input>
+
+
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="result">
+                <div class="photo">
+                </div>
             </div>
         </div>
-    </div>
+        <div class="container" id="news">
+            <div class="header">
+                <h1>News</h1>
+            </div>
+            <div class="searchEngine">
+                <input id="city"></input>
 
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="result">
+                <div class="photo">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="wheader">
+            <div class="header">
+                <h1>Wheather</h1>
+            </div>
+            <div class="searchEngine">
+                City: <input id="city"></input>
+
+
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="result">
+                <div class="photo">
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>>
+    </main>
+    <footer> 4 </footer>
 </body>
-<script src="assets/scripts/api.js"></script>
+<script src="assets/scripts/weatherApi.js"></script>
 
 </html>
