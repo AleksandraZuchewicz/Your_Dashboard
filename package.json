@@ -1,0 +1,23 @@
+{
+    "name": "yourdashboardapp",
+    "version": "1.0.0",
+    "description": "Your Dashboard ",
+    "main": "yourDashboardApp.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AleksandraZuchewicz/Your_Dashboard.git"
+    },
+    "author": "Aleksandra Zuchewicz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AleksandraZuchewicz/Your_Dashboard/issues"
+    },
+    "homepage": "https://github.com/AleksandraZuchewicz/Your_Dashboard#readme",
+    "dependencies": {
+        "bootstrap": "^4.4.1",
+        "bulma": "^0.8.0"
+    }
+}

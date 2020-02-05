@@ -5,13 +5,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 }
 
 body {
     display: grid;
     grid-template-rows: 150px auto 100px;
-    grid-template-columns: minmax(200px, 3fr) 9fr;
-    grid-template-areas: "header header" "nav    content" "nav    footer";
+    grid-template-columns: minmax(200px, 2fr) 1fr;
+    grid-template-areas: "header header" "content content" "footer footer";
 }
 
 header {
@@ -19,18 +20,14 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-area: header;
     border-bottom: groove;
+    overflow: hidden;
 }
 
-img {
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover
-}
-
-nav {
-    grid-area: nav;
+content {
+    grid-area: content;
 }
 
 footer {
-    border-top: groove;
+    /* border-top: groove;*/
+    grid-area: footer;
 }

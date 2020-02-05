@@ -1,0 +1,10 @@
+    #clock {
+        height: 100px;
+        width: 200px;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        right: 50%;
+        left: 50%;
+        margin-left: -100px;
+        font-size: 20px;
+    }

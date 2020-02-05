@@ -1,0 +1,17 @@
+#question {
+    position: right
+}
+
+nav {
+    position: left;
+    border-bottom: groove;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: 2222px;
+    height: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

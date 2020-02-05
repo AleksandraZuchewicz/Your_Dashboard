@@ -7,67 +7,74 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Your Dashboard</title>
     <link rel="stylesheet" href="assets/styles/gridCss.css">
+    <link rel="stylesheet" href="assets/styles/navCss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="assets/styles/clockCss.css">
 </head>
 
 <body>
     <header>
-        <div></div>
         <div>
-            <img src="assets/styles/welcomeImage.png" alt="London">
+            <nav class="navbar navbar-light bg-light">
+                <span id="target">Hi Aleksandra! </span>
+                <span id="question">What would you like to see today ?</span>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
+                </div>
+            </nav>
+            <img src="assets/styles/grey-cut.jpg" alt="greyPhoto">
         </div>
 
     </header>
-    <nav> 2 </nav>
     <main>
-        <div class="container" id="weather">
-            <div class="header">
-                <h1>Weather</h1>
-            </div>
-            <div class="searchEngine">
-                City: <input id="city"></input>
+        <content>
+            <div class="container" id="weather">
+                <div class="header">
+                    <h1>Weather</h1>
+                </div>
+                <div class="searchEngine">
+                    City: <input id="city"></input>
 
 
-                <button id="searchButton">Search</button>
-            </div>
-            <div class="result">
-                <div class="photo">
+                    <button id="searchButton">Search</button>
+                </div>
+                <div class="result">
+                    <div class="photo">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="news">
-            <div class="header">
-                <h1>News</h1>
-            </div>
-            <div class="searchEngine">
-                <input id="city"></input>
+            <div class="container" id="news">
+                <div class="header">
+                    <h1>News</h1>
+                </div>
+                <div class="searchEngine">
+                    <input id="city"></input>
 
-                <button id="searchButton">Search</button>
-            </div>
-            <div class="result">
-                <div class="photo">
+                    <button id="searchButton">Search</button>
+                </div>
+                <div class="result">
+                    <div class="photo">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="wheader">
-            <div class="header">
-                <h1>Wheather</h1>
-            </div>
-            <div class="searchEngine">
-                City: <input id="city"></input>
 
-
-                <button id="searchButton">Search</button>
             </div>
-            <div class="result">
-                <div class="photo">
-                </div>
             </div>
-        </div>
-        </div>
-        </div>>
+        </content>
     </main>
-    <footer> 4 </footer>
+    <footer>
+        <div id="clock"></div>
+    </footer>
 </body>
 <script src="assets/scripts/weatherApi.js"></script>
+<script src="assets/scripts/clockApi.js"></script>
 
 </html>
