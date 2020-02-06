@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(45deg, #BC9AA0, #EBE2E4)
+}
+
+.pie,
+.face,
+.plate,
+.gelly,
+.container {
+    position: absolute;
+}
+
+.container {
+    /* move container back and forward*/
+    background-size: 100%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: peachpuff;
+    background-color: papayawhip;
+    box-shadow: 20px 20px 50px peachpuff;
+}
+
+.container .plate {
+    background-size: 100%;
+    width: 325px;
+    height: 150px;
+    background: rgb(248, 244, 244);
+    border-radius: 200px / 100px;
+    border: 2px solid black;
+    box-shadow: 20px 20px 50px grey;
+    top: 300px;
+    right: 100px
+}
+
+.pie {
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    background: hotpink;
+    top: 160px;
+    right: 165px;
+    z-index: 1;
+    border: 2px solid black;
+    box-shadow: 10px 10px 50px grey;
+}

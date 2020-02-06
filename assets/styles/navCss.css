@@ -1,5 +1,6 @@
 #question {
-    position: right
+    position: right;
+    right: 10px
 }
 
 nav {
@@ -7,6 +8,7 @@ nav {
     border-bottom: groove;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    direction: ltr;
 }
 
 img {
@@ -14,4 +16,5 @@ img {
     height: 100px;
     margin-left: 50%;
     transform: translateX(-50%);
+    opacity: 0.5;
 }

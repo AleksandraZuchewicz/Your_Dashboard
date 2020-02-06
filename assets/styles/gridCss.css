@@ -21,6 +21,7 @@ header {
     grid-area: header;
     border-bottom: groove;
     overflow: hidden;
+    left: 50px
 }
 
 content {
